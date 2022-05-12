@@ -1,0 +1,22 @@
+html,
+body {
+  min-height: 100%;
+  width: 100%;
+  background: #ffffff;
+  margin: 0;
+  /*隐藏滚动条，当IE下溢出，仍然可以滚动*/
+  -ms-overflow-style: none;
+  /*火狐下隐藏滚动条*/
+  overflow: -moz-scrollbars-none;
+}
+
+#app {
+  font-family: 'PingFang SC', 'Helvetica Neue', Helvetica, 'Nimbus Sans L', Arial, 'Liberation Sans', 'Hiragino Sans GB',
+    'Source Han Sans CN Normal', 'Microsoft YaHei', 'Wenquanyi Micro Hei', 'WenQuanYi Zen Hei', 'ST Heiti', SimHei,
+    'WenQuanYi Zen Hei Sharp', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100%;
+  font-size: 14px;
+  color: #2f3c54; 
+}
